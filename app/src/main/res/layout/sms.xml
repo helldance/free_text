@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:paddingTop="5dp"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/upper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TableRow>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/from"
+                        android:layout_width="0dp"
+                        android:hint="@string/from"
+                        android:scrollHorizontally="true" />
+                    <!-- <Button android:id="@+id/pick" android:text="@string/contact" android:gravity="center"
+                        android:layout_marginLeft="5dp" /> -->
+
+                    <!-- contact_selector clock_selector date_selector-->
+                    <com.rayy.android.fake.widget.CircleImageView
+                        android:id="@+id/pick"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:src="@drawable/ic_contacts_white_24dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@+id/time"
+                        android:text="@string/time" />
+
+                    <!--<ImageButton-->
+                    <!--android:id="@+id/p_time"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:background="@drawable/clock_selector"-->
+                    <!--android:gravity="center" />-->
+                    <ImageView
+                        android:id="@+id/p_time"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:src="@drawable/ic_alarm_white_24dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@+id/date"
+                        android:text="@string/date" />
+
+                    <!--<ImageButton-->
+                        <!--android:id="@+id/p_date"-->
+                        <!--android:layout_marginLeft="5dp"-->
+                        <!--android:background="@drawable/date_selector"-->
+                        <!--android:gravity="center" />-->
+
+                    <ImageView
+                        android:id="@+id/p_date"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ic_today_white_24dp"
+                        android:gravity="center" />
+                </TableRow>
+            </TableLayout>
+
+            <EditText
+                android:id="@+id/body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upper"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:hint="@string/body"
+                android:minLines="2" />
+
+            <RadioGroup
+                android:id="@+id/way"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/body"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/in"
+                    android:layout_width="132dp"
+                    android:checked="true"
+                    android:paddingRight="5dp"
+                    android:text="@string/in" />
+
+                <RadioButton
+                    android:id="@+id/out"
+                    android:paddingRight="5dp"
+                    android:text="@string/out" />
+                <!-- <RadioButton android:id="@+id/out_f" android:text="@string/out_fail"
+                    /> -->
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/way"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unread"
+                    android:layout_width="132dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/unread" />
+
+                <RadioButton
+                    android:id="@+id/read"
+                    android:checked="true"
+                    android:paddingRight="5dp"
+                    android:text="@string/read" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radio_fail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radio"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/out_s"
+                    android:layout_width="132dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/out_success" />
+
+                <RadioButton
+                    android:id="@+id/out_f"
+                    android:text="@string/out_fail" />
+            </RadioGroup>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/way"
+        android:text="@string/csms" />
+</RelativeLayout>

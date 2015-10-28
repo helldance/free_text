@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical">
+        <!--<TextView
+            android:id="@+id/help_help"
+            android:text="@string/help_title"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#BB000000"
+            android:shadowRadius="2.75"
+            android:background="#3377dd"
+            android:padding="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        --><!--<TextView android:layout_height="6dp" android:layout_width="fill_parent"
+			/> -->
+        <TextView
+            android:id="@+id/help_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:text="@string/help" />
+
+        <!--<TextView android:layout_height="6dp" android:layout_width="fill_parent"
+            /> -->
+        <TextView
+            android:id="@+id/help_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/horizontal_underline"
+            android:padding="5dp"
+            android:shadowColor="#BB000000"
+            android:shadowRadius="2.75"
+            android:text="@string/note_title"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <!--<TextView android:layout_height="6dp" android:layout_width="fill_parent"
+            /> -->
+        <TextView
+            android:id="@+id/note_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:text="@string/note"
+            android:visibility="gone" />
+
+        <!--<TextView android:layout_height="12dp" android:layout_width="fill_parent"
+            /> -->
+        <!--<TextView-->
+        <!--android:id="@+id/help_abt"-->
+        <!--android:text="@string/about_title"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:background="@drawable/horizontal_underline"-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView android:layout_height="6dp" android:layout_width="fill_parent"
+            /> -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/help_abt_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:text="@string/about" />
+    </LinearLayout>
+</ScrollView>

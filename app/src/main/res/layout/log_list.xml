@@ -1,0 +1,46 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:paddingLeft="10dp"
+	android:paddingRight="5dp"
+	android:gravity="center_vertical">
+
+	<ImageView
+		android:id="@+id/type" 
+
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+
+		android:layout_alignParentTop="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginRight="2dip"
+		android:layout_alignParentRight="true" />
+
+	<TextView
+		android:id="@+id/timestamp"		
+
+		android:layout_width="fill_parent"
+		android:layout_height="26dip"
+
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+
+		android:singleLine="true"
+		android:ellipsize="marquee" />
+		
+	<TextView
+		android:id="@+id/number"
+		android:textStyle="bold" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+
+		android:layout_alignParentTop="true"
+		android:layout_above="@id/timestamp"
+		android:layout_alignWithParentIfMissing="true"
+		android:layout_marginRight="48dp"
+
+		android:gravity="center_vertical"
+		android:ellipsize="end" />
+
+</RelativeLayout>

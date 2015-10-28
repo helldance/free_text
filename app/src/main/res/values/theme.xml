@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyMaterial" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color palette -->
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="colorControlNormal">#03A9F4</item>
+        <item name="colorControlActivated">#03A9F4</item>
+        <item name="android:textColorSecondary">#727272</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyTheme" parent="android:Theme">
+        <item name="android:textViewStyle">@style/MyTextView</item>
+        <!--<item name="android:editTextStyle">@style/MyEditText</item>    -->
+        <item name="android:listViewStyle">@style/MyListView</item>
+        <item name="android:windowBackground">@drawable/bg_white</item>
+        <item name="android:windowTitleSize">36dp</item>
+        <item name="android:windowTitleStyle">@style/MyTitleText</item>
+        <item name="android:windowTitleBackgroundStyle">@style/MyTitle</item>
+        <item name="android:buttonStyle">@style/MyButtonView</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!--<style name="MyEditText" parent="@android:style/Widget.EditText">-->
+    <!--<item name="android:background">@drawable/edit_text</item>-->
+    <!--</style>-->
+
+    <!-- <style name="MyTitleText" parent="android:WindowTitle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style> -->
+
+    <style name="MyButtonView" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <!--<item name="android:background">@drawable/button_selector</item>-->
+    </style>
+
+    <style name="MyTitleText" parent="WindowTitle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="MyTitle" parent="@style/WindowTitleBackground">
+        <item name="android:background">#3377dd</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="MyListView" parent="@android:style/Widget.ListView">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <!--<item name="android:divider">@drawable/text_divide</item>-->
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:cacheColorHint">#0000</item>
+    </style>
+
+    <!-- private attribute from android, so copied here.  -->
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@android:drawable/title_bar</item>
+    </style>
+
+    <!-- private attribute from android, so copied here.  -->
+
+    <style name="WindowTitle">
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:textAppearance">@style/TextAppearance.WindowTitle</item> -->
+        <item name="android:shadowColor">#BB000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+</resources>

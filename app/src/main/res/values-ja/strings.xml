@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">偽のメッセージ、通話</string>
+    <string name="help">&lt;br&gt;» 塗りつぶし、またはの連絡先番号を選択&lt;br&gt;&lt;br&gt;» 塗りつぶしの関連コンテンツ。手動でのヒントを参照してください日付と時刻を入力した場合、および維持するのと同じ形式を &lt;br&gt;&lt;br&gt;» 下部にあるボタンをクリックして、メッセージや通話ログを生成&lt;br&gt;</string>
+    <string name="note">&lt;br&gt;パスワードは任意の数字と文字の組み合わせを指定できます&lt;br&gt;</string>
+    <string name="about">&lt;br&gt;ご自身の責任でこのツールを使用してください&lt;br&gt;&lt;br&gt;ver 2.7 (build 20140401)&lt;br&gt;&lt;br&gt;© 2013 Ray Y &lt;br&gt;&lt;br&gt;</string>
+    <string name="msg">メッセージ</string>
+    <string name="call">通話</string> 
+    <string name="log">履歴</string> 
+    <string name="from">电话番号</string>
+    <string name="contact">検索</string>
+    <string name="time1">時 間</string>
+    <string name="date1">年月日</string>
+    <string name="time">時間, 例えば 12:33</string>
+    <string name="date">年月日, 例えば 27-12-2010</string>
+    <string name="body">メッセージ</string>
+    <string name="in">受信</string>
+    <string name="out">送信</string>
+    <string name="unread">未読</string>
+    <string name="read">読みました</string>
+    <string name="out_fail">失敗を送信</string>
+    <string name="out_success">成功</string>
+    <string name="csms">生成す</string>
+    <string name="clog">生成す</string>
+    <string name="type1">通話着信</string>
+    <string name="type2">発信履歴</string>
+    <string name="type3">不在着信</string>
+    <string name="type">のタイプ</string>
+    <string name="duration">持続 (秒数)</string>
+    <string name="help1">使用</string>
+    <string name="about1">情報</string>
+    <string name="ok1">OK</string>
+    <string name="tst_msg_succ">メッセージを正常に生成さ</string>
+    <string name="tst_call_succ">通話記録が正常に生成さ</string>
+    <string name="title_pick_num">選択</string>   
+    <string name="tst_null_time">時刻または日付が空にすることはできません</string>    
+    <string name="tst_call_nullnum">電話番号は空にできません</string>
+    
+    <string name="title">"\@ ロックを解除するためのパスワードを入力</string>
+    <string name="unlock">ログイン</string>
+    <string name="first">パスワードを設定する</string>
+    
+    <string name="setting_pass_on">パスワード保護</string>
+    <string name="setting_pass_summary"></string>
+    <string name="setting_pass_summary2"></string>
+    <string name="setting_pass">設定またはパスワードを変更する</string>
+    <string name="setting_notification_on">通知を表示</string>
+    <string name="setting_notification_summary"></string>
+    
+    <string name="help_title">使用</string>
+    <string name="note_title">注意</string>
+    <string name="about_title">情報</string>
+    
+    <string name="hint_pass1">パスワードを入力します</string>    
+    <string name="hint_pass2">パスワードを確認</string>  
+    <string name="auth_fail">間違ったパスワード</string> 
+    <string name="pass_not_match">パスワードが一致しません</string>
+    
+    <string name="label_setting">設定</string>
+    
+    <string name="call_name">発信者名を有効</string>
+    <string name="call_name_">お使いの携帯電話の自動発信者の名前と番号を一致する場合に有効にしないでください</string>
+    <string name="call_name_hint">発信者名を入力してください</string>
+    
+    
+    <string name="miss_call">不在着信</string>
+    <string name="sms_fail">メッセージは送信されません</string>
+    <string name="sms_fail_detail">メッセージを確認し、もう一度試してタッチする</string>
+   
+    <string name="of_faked_logs">履歴</string>
+    <string name="of_setting">設定</string>
+
+    <string name="diag_set_default_sms">警告</string>
+    <string name="msg_set_default_sms">偽のメッセージ、通話のは、最新のAndroidのバージョンで動作するためには、あなたがデフォルトのSMSアプリとして設定する必要があり、これは一時的なもので、後には、以前のデフォルトのSMSアプリに戻ります、継続して「OK」をクリック</string>
+    <string name="msg_revert_default_sms">終了する前に、このアクションは、SMSアプリ初期状態に戻ります、継続して「OK」をクリック</string>
+    <string name="no_show_again">再び表示しない</string>
+</resources>

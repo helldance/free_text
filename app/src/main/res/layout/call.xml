@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:paddingTop="5dp"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/upper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TableRow>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/from"
+                        android:layout_width="0dp"
+                        android:hint="@string/from"
+                        android:scrollHorizontally="true" />
+
+                    <ImageButton
+                        android:id="@+id/pick"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/contact_selector"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="0dp"
+                        android:hint="@string/call_name_hint"
+                        android:scrollHorizontally="true" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@+id/time"
+                        android:text="@string/time" />
+                    <!-- <Button
+                        android:id="@+id/p_time"
+                        android:text="@string/time1"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp" /> -->
+                    <ImageButton
+                        android:id="@+id/p_time"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/clock_selector"
+                        android:gravity="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <EditText
+                        android:id="@+id/date"
+                        android:text="@string/date" />
+                    <!-- <Button
+                        android:id="@+id/p_date"
+                        android:text="@string/date1"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp" /> -->
+                    <ImageButton
+                        android:id="@+id/p_date"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/date_selector"
+                        android:gravity="center" />
+                </TableRow>
+            </TableLayout>
+
+
+            <Spinner
+                android:id="@+id/type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upper"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp" />
+
+            <EditText
+                android:id="@+id/duration"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/type"
+                android:hint="@string/duration" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/clog" />
+
+</RelativeLayout>

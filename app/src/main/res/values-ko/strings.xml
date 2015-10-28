@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">가짜 메시지 및 전화 로그</string>
+    <string name="help">&lt;br&gt;» 전화 번호를 입력하거나 주소록에서 선택&lt;br&gt;&lt;br&gt;» 필요한 입력란에 입력 &lt;br&gt;&lt;br&gt;» 하단에있는 버튼을 클릭하십시오， 메시지나 전화 기록을 생성&lt;br&gt;</string>
+    <string name="note">&lt;br&gt;비밀 번호는 모든 숫자와 문자의 조합이다&lt;br&gt;</string>
+    <string name="about" formatted="false">&lt;br&gt;고객님의 책임이 도구를 사용&lt;br&gt;&lt;br&gt;ver 2.7 (build 20140401)&lt;br&gt;&lt;br&gt;© 2013 Ray Y &lt;br&gt;</string>  
+    <string name="msg">메시지</string>
+    <string name="call">전화 로그</string>
+    <string name="log">기록</string>
+    <string name="from">전화 번호</string>
+    <string name="contact">주소록</string>
+    <string name="time1">시간</string>
+    <string name="date1">날짜</string>
+    <string name="time">시간,예를 들어12:33</string>
+    <string name="date">날짜,예를 들어27-12-2010</string>
+    <string name="body">메시지를 작성</string>
+    <string name="in">수신</string>
+    <string name="out">보내</string>
+    <string name="unread">열리지 않은</string>
+    <string name="read">오픈</string>
+    <string name="out_fail">전송 실패</string>
+    <string name="out_success">성공</string>
+    <string name="csms">메시지를 만들</string>
+    <string name="clog">로그를 호출 생성</string>
+    <string name="type1">수신 전화</string>
+    <string name="type2">발신 전화</string>
+    <string name="type3">부재중 전화</string>
+    <string name="type">유형</string>
+    <string name="duration">존속 기간(초)</string>
+    <string name="help1">도움말</string>
+    <string name="about1">소개</string>
+    <string name="ok1">됐어</string>
+    <string name="tst_msg_succ">메시지가 성공적으로 만들어</string>
+    <string name="tst_call_succ">전화 로그 성공적으로 만들어</string>
+    <string name="title_pick_num">번호 선택</string>
+    <string name="tst_null_time">날짜 또는 시간을 비워둘 수 없습니다</string>    
+    <string name="tst_call_nullnum">전화 번호는 비워둘 수 없습니다</string>
+    
+    <string name="title">"\@ 잠금을 해제하려면 비밀 번호를 입력</string>
+    <string name="unlock">로그인</string>
+    <string name="first">비밀 번호를 설정</string>
+    
+    <string name="setting_pass_on">암호로 보호</string>
+    <string name="setting_pass_summary"></string>
+    <string name="setting_pass_summary2"></string>
+    <string name="setting_pass">설정하거나 암호를 변경</string>
+    <string name="setting_notification_on">알림 표시</string>
+    <string name="setting_notification_summary"></string>
+    
+    <string name="help_title">도움말</string>
+    <string name="note_title">참고</string>
+    <string name="about_title">소개</string>
+    
+    <string name="hint_pass1">비밀번호</string>    
+    <string name="hint_pass2">비밀번호 재확인</string>  
+    <string name="auth_fail">잘못된 비밀 번호</string> 
+    <string name="pass_not_match">비밀 번호가 일치하지 않습니다</string> 
+    
+    <string name="label_setting">설정</string>
+    
+    <string name="call_name">로그 이름을 전화 활성화</string>
+    <string name="call_name_">이 옵션을 활성화하지 마십시오 휴대 전화는 자동으로 발신자의 이름과 번호를 일치하면</string>
+    <string name="call_name_hint">발신자 이름을 입력</string>
+
+    <string name="miss_call">부재중 전화</string>
+    <string name="sms_fail">메시지가 전송되지</string>
+    <string name="sms_fail_detail">메시지를 검토한 후 다시 시도하려면 터치</string>
+     
+    <string name="of_faked_logs">기록</string>
+    <string name="of_setting">설정</string>
+</resources>

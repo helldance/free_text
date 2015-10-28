@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Free Text</string>
+    <string name="help">&lt;br&gt;• Type a contact number or choose one from contact list&lt;br&gt;&lt;br&gt;• Fill in corresponding fields, please follow the hint format if you manually key in date &amp; time (&lt;u&gt;do not include seconds in the time field, seconds are not shown on Android phones&lt;/u&gt;)&lt;br&gt;&lt;br&gt;• Click button at the bottom to create message or call log&lt;br&gt;</string>
+    <string name="note">&lt;br&gt;• \"Add Call Log Name\" option should only be enabled if you have problem creating call logs, specifically, call log does not show caller name&lt;br&gt;</string>
+    <string name="about"  formatted="false">&lt;br&gt;ver 3.0 (build 20151019)&lt;br&gt;&lt;br&gt;Copyright @Ray Y </string>
+    <string name="msg">Message</string>
+    <string name="call">Call</string>
+    <string name="from">Phone Number</string>
+    <string name="contact">Contact</string> 
+    <string name="time1">Pick Time</string>
+    <string name="date1">Pick Date</string>
+    <string name="time">Now</string>
+    <string name="date">Today</string>
+    <string name="body">Message Here</string>
+    <string name="in">Receive</string> 
+    <string name="out">Send</string>
+    <string name="out_fail">Fail</string>
+    <string name="out_success">Success</string>
+    <string name="unread">Unread</string>
+    <string name="read">Read</string>
+    <string name="csms">Create Message</string>
+    <string name="clog">Create Call Log</string>
+    <string name="type1">Incoming</string>
+    <string name="type2">Outgoing</string>
+    <string name="type3">Missed</string>
+    <string name="type">Type of Call</string>
+    <string name="duration">Call Duration (Seconds)</string>
+    <string name="help1">Help</string>
+    <string name="about1">About</string>
+    <string name="ok1">OK</string>
+    <string name="log">Log</string>
+    <string name="tst_msg_succ">Message is created</string>
+    <string name="tst_call_succ">Call log is created</string>
+    <string name="title_pick_num">Choose Number</string>
+    <string name="tst_null_time">Date or Time field can not be empty</string>    
+    <string name="tst_call_nullnum">Caller number can not be empty</string>
+    
+    <string name="title">\@ Enter Password to Unlock</string>
+    <string name="unlock">Login</string>
+    <string name="first">Set Password</string>
+
+    
+    <string name="setting_pass_on">Password protection</string>
+    <string name="setting_pass_summary">Need passwork to open this application</string>
+    <string name="setting_pass">Set or change password</string>
+    <string name="setting_pass_summary2">Password can combine any digits and letters</string>
+    <string name="setting_notification_on">Show notification</string>
+    <string name="setting_notification_summary"></string>
+    
+    <string name="help_title">Help</string>
+    <string name="note_title">Note</string>
+    <string name="about_title">About</string>
+    
+    <string name="hint_pass1">Enter Password</string>    
+    <string name="hint_pass2">Confirm Password</string>  
+    <string name="auth_fail">Wrong password</string> 
+    <string name="pass_not_match">Password does not match</string> 
+    
+    <string name="label_setting">Setting</string>  
+    
+    <string name="call_name">Add Call Log Name</string>
+    <string name="call_name_">Do not enable if your phone auto matches number with caller name</string>
+    <string name="call_name_hint">Caller Name</string>
+    
+    <string name="miss_call">Missed call</string>
+    <string name="sms_fail">Message not sent</string>
+    <string name="sms_fail_detail">Touch to review the message and try again</string>
+    <string name="of_faked_logs">Log</string>
+    <string name="of_setting">Setting</string>
+    <!-- <string name="theme">Choose theme</string>
+    <string-array name="theme_list">
+        <item>Holo Dark</item>
+        <item>Holo Light</item>
+    </string-array>
+    <string-array name="theme_list_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array> -->
+    
+    <string name="diag_set_default_sms">Warning</string>
+    <string name="msg_set_default_sms">In order for FreeText to work on latest Android version, you need to set it as default Message app, this is temporary and after editing done it will revert to your previous default SMS app, click "Ok" to proceed</string>
+    <string name="msg_revert_default_sms">This action will revert to your previous default Message App, click "Ok" to proceed</string>
+    <string name="no_show_again">Don\'t show again</string>
+
+</resources>

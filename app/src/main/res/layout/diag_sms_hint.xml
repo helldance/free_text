@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tv_sms_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:paddingLeft="5dp" />
+
+    <CheckBox
+        android:id="@+id/cb_no_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_sms_msg" />
+
+    <TextView
+        android:id="@+id/txt_no_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cb_no_show"
+        android:layout_below="@id/tv_sms_msg"
+        android:layout_toRightOf="@id/cb_no_show"
+        android:gravity="center_vertical"
+        android:text="@string/no_show_again" />
+
+</RelativeLayout>

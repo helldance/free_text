@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--<item android:id="@+id/help" android:title="@string/help1" android:icon="@drawable/help"></item> 
+		<item android:id="@+id/about" android:title="@string/about1" android:icon="@drawable/info"></item> -->
+	<!-- <item
+		android:id="@+id/del_all"
+		android:title="@string/delete_all"
+		android:icon="@drawable/delete"></item> -->
+</menu>

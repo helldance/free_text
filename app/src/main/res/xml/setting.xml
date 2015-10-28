@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- <ListPreference android:title="@string/theme"
+		android:key="theme" android:defaultValue="Holo Dark"
+		android:entries="@array/theme_list"
+		android:entryValues="@array/theme_list"
+		android:summary="Holo Dark"/> -->
+	<CheckBoxPreference
+		android:title="@string/setting_notification_on"
+		android:key="notification_on" android:defaultValue="false"></CheckBoxPreference>
+	<CheckBoxPreference
+		android:title="@string/setting_pass_on"
+		android:key="pass_on"
+		android:summary="@string/setting_pass_summary"></CheckBoxPreference>
+	<Preference
+		android:title="@string/setting_pass"
+		android:key="pass"
+		android:summary="@string/setting_pass_summary2"></Preference>
+	<CheckBoxPreference
+		android:title="@string/call_name"
+		android:key="name_on"
+		android:summary="@string/call_name_"></CheckBoxPreference>
+</PreferenceScreen>
